@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Data Covid-19</title>
+  </head>
+  <body>
+    <nav class="sticky-top navbar-dark bg-danger">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-10 pt-1 pb-1 judul">
+            <a class="navbar-brand" href="#">Penghitung Corona Virus Real Time</a>
+          </div>
+          <div class="col-sm-2 text-center clock">
+            <div class="time"></div>
+            <div class="date"></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="data-covid mb-4">
+          <h2>Kasus Global</h2>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-4">
+                    <div class="alert alert-warning" role="alert">
+                        <h4 class="alert-heading">Terkonfirmasi</h4>
+                        <p id="konfirmasiGlobal" class="hasil"></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="alert alert-success" role="alert">
+                        <h4 class="alert-heading">Sembuh</h4>
+                        <p id="sembuhGlobal" class="hasil"></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="alert alert-danger" role="alert">
+                        <h4 class="alert-heading">Meninggal</h4>
+                        <p id="meninggalGlobal" class="hasil"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pilihan mb-4">
+          <h2>Pilih Negara :</h2>
+          <div class="note">
+            <p>Silahkan pilih negara terlebih dahulu</p>
+          </div>
+          <div class="input-group">
+            <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon"></select>
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">Cari!</button>
+            </div>
+          </div>
+        </div>
+        <div class="info"></div>
+        <div class="data-covid">
+          <h2>Kasus Per negara</h2>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-4">
+                    <div class="alert alert-warning" role="alert">
+                        <h4 class="alert-heading">Terkonfirmasi</h4>
+                        <p id="konfirmasi" class="hasil"></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="alert alert-success" role="alert">
+                        <h4 class="alert-heading">Sembuh</h4>
+                        <p id="sembuh" class="hasil"></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="alert alert-danger" role="alert">
+                        <h4 class="alert-heading">Meninggal</h4>
+                        <p id="meninggal" class="hasil"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="mt-5 pt-3 pb-1">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="social mb-2">
+            <ul class="text-center">
+              <li><a href="https://web.facebook.com/mirzaq.arjap19" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.instagram.com/mirzaq_arjap/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-12 col-sm-12 text-center">
+            <copy-right
+              src="https://raw.githubusercontent.com/mirzaq19/covid19Counter/master/mylogo.png"
+              alt="mylogo"
+              link="https://github.com/mirzaq19"
+              nama="M. Auliya Mizaq Romdloni"
+            ></copy-right>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
+
